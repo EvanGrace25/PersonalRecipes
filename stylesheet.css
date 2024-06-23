@@ -1,0 +1,38 @@
+* {
+    border: solid black 2px;
+}
+
+.masterflexcontainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.masterflexcontainer > * {
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header div {
+    border: solid black 2px;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.recipecontainer {
+
+}
+
+.recipecontainer div {
+
+}
+
+.footer {
+
+}
