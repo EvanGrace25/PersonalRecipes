@@ -1,5 +1,5 @@
 * {
-    border: solid black 2px;
+    
 }
 
 .masterflexcontainer {
@@ -13,26 +13,53 @@
 }
 
 .header {
-    width: 100%;
-    justify-content: space-between;
+   background-color: rgb(225, 207, 207); 
 }
 
-.header div {
-    border: solid black 2px;
+.header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
 }
 
 .main {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    gap: 50px;
 }
 
-.recipecontainer {
-
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.recipecontainer div {
+.recipe div {
+    flex: 0 0 300px;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.recipe-title {
+    flex:100%;
+    justify-self: center;
 }
 
 .footer {
-
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(225, 207, 207); 
+    gap: 40px;
+    justify-content: space-between;
 }
