@@ -52,6 +52,10 @@
     border-radius: 10px;
 }
 
+.recipe div:hover {
+    filter: brightness(95%);
+}
+
 .recipe-title {
     background-color: bisque;
     border-radius: 20px;
