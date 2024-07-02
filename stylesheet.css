@@ -41,15 +41,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
-    flex-basis: 200px;
+    flex-basis: 250px;
 }
 
 .recipe div {
-    flex: 1;
+    flex: 1 1 300px;
     background-color: antiquewhite;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 10px;
+    min-height: 60px;
+    max-height: 60px;
 }
 
 .recipe div:hover {
